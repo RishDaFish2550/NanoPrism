@@ -1,6 +1,7 @@
 ## Requirements
 
 1. Anaconda Package Manager - https://www.anaconda.com
+
 -------------------------- or --------------------------
 1. Perl - https://www.perl.org
 2. Perl module "Bio::DB::Taxonomy" - https://bioperl.org
