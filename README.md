@@ -1,5 +1,7 @@
 ## Requirements
 
+1. Anaconda Package Manager - https://www.anaconda.com
+-------------------------- or --------------------------
 1. Perl - https://www.perl.org
 2. Perl module "Bio::DB::Taxonomy" - https://bioperl.org
 3. DIAMOND - https://github.com/bbuchfink/diamond
@@ -20,6 +22,14 @@ cd NanoPrism
 git clone https://github.com/jiwoongbio/MetaPrism.git
 ```
 
+## Download Dependencies 
+
+Download Dependencies using conda 
+```
+conda env create -f nanoprism_env.yml
+conda activate nanoprism_env
+
+```
 
 ## Usage
 
@@ -32,6 +42,7 @@ Options: -h       display this help message
          -t STR   target NCBI taxonomy IDs or file
          -x STR   minimap2 preset [map-ont]
          -c FLOAT minimum coverage [0.9]
+         -b STR   base abundance orthologies [K02950,K02874,K02946,K02948,K02867,K02952,K02886,K02988,K02992,K02965]
          -P FILE  minimap2 PAF file
          -S STR   stranded, "f" or "r"
          -M DIR   MetaPrism directory [MetaPrism]
