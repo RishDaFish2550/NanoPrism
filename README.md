@@ -27,9 +27,8 @@ git clone https://github.com/jiwoongbio/MetaPrism.git
 
 Download Dependencies using conda 
 ```
-conda env create -f nanoprism_env.yml
+CONDA_CHANNEL_PRIORITY=disabled conda env create -f nanoprism_env.yml #for linux-64 only
 conda activate nanoprism_env
-
 ```
 
 ## Usage
